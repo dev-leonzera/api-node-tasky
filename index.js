@@ -1,3 +1,3 @@
-const run = require('./app')
+const run = require('./app/config')
 
 run()

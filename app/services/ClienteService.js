@@ -1,6 +1,7 @@
 module.exports = {
-    async getAllClients(){
-        const res = await client.query('SELECT * FROM clientes');
-        return res[0];
-    }
+    async getAllClients(){},
+    async getClient(){},
+    async insertClient(){},
+    async updateClient(){},
+    async deleteClient(){},
 }
